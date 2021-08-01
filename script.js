@@ -78,10 +78,10 @@ function fetchBookmarks() {
 		bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
 	} else {
 		// Create bookmarks object in localStorage
-		const id = `www.bookmark.com`
+		const id = `https://nishantpadhi.github.io/Book-Marker/`
 		bookmarks[id] = {
 			name: 'BookMarker',
-			url: 'www.bookmark.com',
+			url: 'https://nishantpadhi.github.io/Book-Marker/',
 		}
 
 		localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
